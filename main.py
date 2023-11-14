@@ -16,8 +16,8 @@ from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
 
 origins = [
-    "http://localhost",
-    "http://localhost:3001",  # Update with your frontend URL
+    "https://sa1864225.github.io",
+    "https://fastapi-vl98.onrender.com",
 ]
 
 # what is a middleware? 
